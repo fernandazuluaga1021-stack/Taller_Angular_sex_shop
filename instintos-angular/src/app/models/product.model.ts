@@ -1,0 +1,1 @@
+export interface Product { id:number; name:string; category:'lenceria'|'jugueteria'|'cosmetologia'; subcategory:string; price:number; color?:string; sabor?:string; olor?:string; tags:string[]; icon:string; badge?:string; }
